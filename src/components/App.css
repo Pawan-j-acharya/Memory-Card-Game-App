@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-bottom: 0rem;
+}
+
+.scoreboard {
+  margin: 0.5rem;
+  text-align: right;
+}
+
+.header > p:nth-child(4) {
+  text-align: center;
+}
+
+.card-input {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 520px) {
+  .header {
+    justify-content: center;
+  }
+  .header > h1 {
+    margin-bottom: 0rem;
+  }
+}
